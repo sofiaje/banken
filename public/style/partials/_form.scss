@@ -1,0 +1,43 @@
+.btn {
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    background-color: rgb(242, 242, 242);
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid rgb(195, 195, 195);
+    padding: 0.5rem;
+    &:hover {
+        background-color: white;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 18px 0px;
+    }
+}
+.backBtn {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    padding: 1rem 0;
+}
+input {
+    margin: 0.3rem 0 1rem 0;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid rgb(195, 195, 195);
+    &:focus{
+        outline-color: rgb(76, 158, 146);
+    }
+}
+
+form {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 18px 0px;
+    max-width: 500px;
+    accent-color: rgb(40, 113, 102);
+
+}
+

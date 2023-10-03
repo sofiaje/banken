@@ -1,0 +1,22 @@
+header {
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1rem;
+    color:rgb(40, 113, 102);
+    a{
+        color:rgb(18, 44, 40);
+        font-size: 1.1rem;
+        text-decoration: none;
+        &:hover {
+            border-bottom: 1px solid;
+        }
+    }
+}
+
+
+nav {
+    display:flex;
+    gap: 1rem;
+}

@@ -1,0 +1,35 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+    padding: 0.5rem 0;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+p{
+    max-width: 500px;
+}
+
+.firstpageHeading {
+    font-size: 3rem;
+}
+.sum {
+    color: green;
+}
+#errorText {
+    color: rgb(215, 47, 47);
+    margin-top: 1rem;
+    font-style: italic;
+    
+}
+
+a {
+    font-family: 'Cormorant Garamond', serif;
+
+    text-decoration: none;
+    color: black;
+}
+
+
+

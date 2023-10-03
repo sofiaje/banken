@@ -1,0 +1,51 @@
+#pageWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+#pageContent {
+    flex-grow: 1;
+    padding: 3rem 1rem 1rem 1rem;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+ul {
+    padding: 1rem 0;
+    list-style: none;
+    margin-left: 0;
+}
+li {
+    background-color: white;
+    max-width: 500px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 18px 0px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    @media (width >= 850px) {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+.accountDiv {
+    background-color: white;
+    max-width: 500px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 18px 0px;
+
+    padding:1.5rem;
+    margin: 1rem 0;
+}
+
+.textDiv {
+    margin-bottom: 4rem;
+}
